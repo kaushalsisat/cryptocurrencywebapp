@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Orelega+One&family=Poppins:wght@500&display=swap');
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* -----------------------------------Navbar ------------------------------------------------------*/
+.navbar{
+    background-color: rgb(237, 237, 237);
+    font-family: Arial;
+    border-bottom: 2px solid rgb(187, 187, 187);
+}
+.navbar-brand{   
+  color: #9b7413;
+  text-transform: uppercase;
+  align-items: center;
+  display: flex;
+}
+
+.navbar-logo {
+    width:  70px; 
+    height: 40px;
+    margin-right: -13px; 
+   
+  }
+  .heading{
+    color: #56421b;
+    font-weight: bold;
+  }
+  .n-login{
+    background-color: #9b7413;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+  }
+  /* -----------------------------------------home ----------------------------------------------*/
+  .home-page{
+    background-color: rgb(249, 247, 238);
+  }
+  .header-content{
+    border: 1px solid #72561d;
+    border-radius: 10px;
+    color: #9b7413;
+    font-style:"Merriweather";
+    background-color: rgb(255, 255, 255);
+  }
+  #services-c{
+    border: 1px solid #72561d;
+    background-color: white;
+  }
+  .hservice-h5{
+    color: #9b7413;
+  }
+  #h-card{
+    border: 1px solid #72561d;
+  }
+  #h-btn{
+    background-color: #634b0e;
+  }
+
+  /* roadmap */
+  .roadmap{
+    background-color: rgb(255, 255, 255);
+  }
+  .timeline {
+   position: relative;
+   max-width: 800px;
+   margin: 40px auto;
+  }
+  .timeline-item {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  .timeline-year {
+    flex: 1;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 20px;
+    color: #937528;
+  }
+   .timeline-content {
+    flex: 3;
+    padding: 15px;
+    background: #f8f9fa;
+    border-left: 4px solid #937528;
+    border-radius: 5px;
+  }
+  @media (max-width: 768px) {
+    .timeline-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .timeline-year {
+      text-align: left;
+      padding-bottom: 5px;
+    }
+  }
+  .h-heding3{
+    font-family: Arial;
+  }
+  .card i {
+    margin-bottom: 10px;
+  }
+  @media (max-width: 768px) {
+    .row .col-sm-6 {
+      width: 100%;
+    }
+  }
+  
+  .play-store{
+    background-color: rgb(255, 255, 255);
+  }
+
+  .playstore-btn {
+    width: 180px;
+  }
+  @media (max-width: 768px) {
+    .ps-row .col-sm-12 {
+      text-align: center;
+    }
+    .playstore-btn {
+      width: 150px;
+    }
+  }
+  /* ---------------------------------------About Page -------------------------------------------*/
+
+  .a-heading{
+    color: #9b7413;
+  }
+  .a-span{
+    color: cadetblue;
+  }
+  .a-img{
+    border: 1px solid #8f7239;
+    border-radius: 5px;
+  }
+  #h-button{
+    background-color: #9b7413;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #ffffff;
+  }
+
+  .a-icon{
+    color: #9b7413;
+  }
+
+  .a-learn{
+    background-color: #9b7413;
+    text-decoration: none;
+    border-radius: 10px;
+    color: azure;
+  }
+  
+  #ab-card{
+    border: 1px solid #72561d;
+  }
+  #ab-why{
+    border: 1px solid #72561d;
+  }
+
+ 
+/* -----------------------------------------------Footer ---------------------------------------*/
+  .footer{
+    background-color: black;
+  }
+
+  .footer-logo {
+    width:  80px; 
+    height: 50px;
+    margin-right: -16px; 
+   
+  }
+  .footer-brand{   
+  color: #b38309;
+  text-decoration: none;
+  margin-left: -1.4rem;
+  font-family: Arial;
+  text-transform: uppercase;
+   
+}
+.footer-links{
+  color: azure;
+}
+
+/* ------------------------------------------blog------------------------------------------- */
+
+#n-card{
+  border: 1px solid #72561d;
+}
+#c-btn{
+  background-color: #9b7413;
+  color: azure;
+}
+/* global card */
+.global-card{
+  border: 1px solid #72561d;
+  background-color: rgb(252, 250, 243);
+}
+
+.blog-table-bg{
+  background-color: rgb(252, 250, 243);
+}
+.table-responsive{
+  border: 1px solid #ebd9b8;
+}
+
+/* -----------CryptoFilterCard -----------*/
+.filter-card{
+  background-color: rgb(252, 250, 243);
+  border: 1px solid #ebdfc8;
+}
+/* --------------------------------------news-------------------------------- */
+.news{
+  background-color: rgb(252, 250, 243);
+}
+
+/*--------------------------------------contactUs------------------------------------------- */
+
+.contact-page{
+  background-color: rgb(252, 250, 243);
+}
+#contact-section{
+  border: 1px solid #dcc59a;
+}
+#contact-form{
+  border: 1px solid #dcba7d;
+}
+
+.c-h2{
+  color: #6e5310;
+}
+.c-h3{
+  color: #6e5310;
+}
+.FaPhone{
+  color: #6e5310;
+}
+.FaEnvelope{
+  color: #6e5310;
+}
+.FaMapMarkerAlt{
+  color: #6e5310;
+}
+#c-button{
+  background-color: #6e5310;
+  color: #ffffff;
+}
+
+/* Login */
+.log-card{
+  width: 350px;
+}
+.log-h3{
+  color: #9b7413;
+}
+#log-btn{
+  background-color: #9b7413;
+   color: white;
+}
+
+#log-reg{
+  color: #9b7413;
+  text-decoration: none;
+}
+
+
+/* Register */
+
+.reg-card{
+  width: 350px;
+}
+.register-h3{
+ color: #9b7413;
+}
+#register-button{
+  background-color: #9b7413;
+   color: white;
+}
+#reg-log{
+  color: #9b7413;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
