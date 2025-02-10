@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: "build",
-    base: "/cryptocurrencywebapp/",//add this line
     chunkSizeWarningLimit: 2000, // Increase warning limit slightly
   },
+  base: "/cryptocurrencywebapp/",//add this line
 })
